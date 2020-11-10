@@ -1,0 +1,24 @@
+###
+POST http://localhost:3000/api/user/register HTTP/1.1
+content-Type: application/json
+
+{
+    "name":"kavitha",
+    "email":"kavi@yahoo.com",
+    "password":"avanthika1!"
+}
+
+###
+POST http://localhost:3000/api/user/login HTTP/1.1
+content-Type: application/json
+
+{
+    "name":"kavitha",
+    "email":"kavi@yahoo.com",
+    "password":"avanthika1!"
+}
+
+###
+GET http://localhost:3000/api/getmethod HTTP/1.1
+
+
